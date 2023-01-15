@@ -1,3 +1,7 @@
+Першим ділом треба надати gradlew права на виконання:
+
+`git update-index --chmod=+x gradlew`
+
 # goit-java-dev-mod16-hw-cicd-git-actions
 
 На **Github** є базовий інструментарій для `CI/CD` процесів. Цей інструмент називається **Github Actions**.
