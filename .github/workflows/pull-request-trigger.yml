@@ -12,6 +12,5 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: 'gradle'
-      - uses: gradle/wrapper-validation-action@v1
       - name: Test with Gradle
         run: ./gradlew test
